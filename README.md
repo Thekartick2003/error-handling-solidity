@@ -2,16 +2,16 @@
 This is the etherium intermediate course project at metacrafter in which it explains about to resolve the error handling with the pre-defined methods such as(require(),assert(),revert()).and make the code workable and run successfully.
 
 # Functionality
-Contract successfully uses require()
-Contract successfully uses assert()
-Contract successfully uses revert() 
+- Contract successfully uses require()
+- Contract successfully uses assert()
+- Contract successfully uses revert() 
 
 # Description 
 For my MetaCrafter project for the Ethereum intermediate course, I was expected to create a contract that addresses undesirable errors or risks that arise in the code during compilation and can be fixed using the pre-defined techniques listed below. 
 I have created three functions for each error-handling mechanism in this project.
-1. Who can cast a vote or not?
-2. Qualified for a result based on the cumulative mark total 
-3. Performance of the division
+-  Who can cast a vote or not?
+-  Qualified for a result based on the cumulative mark total 
+-  Performance of the division
 
 This is the functiom used to determine a person's eligibility to vote or not.
 We presume that a person who is older than 18 can vote until they reach voting age, which is less than 55.
@@ -62,4 +62,4 @@ function get_result() public view returns(string memory){
 # Thank you for Reading !!!
 ## Author
 ##### Kartick
-##### Thekartick2003
+##### [Thekartick2003](https://github.com/Thekartick2003)
