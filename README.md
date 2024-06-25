@@ -35,7 +35,7 @@ function assert_marks(uint _maths, uint _Science, uint _Geography) public {
 //Here If the cumaltive marks is greater than equal to 200 then person is eligible for the certificate/result.
 ```solidity 
 function get_result() public view returns(string memory){
-    if (result >= 200 || result <300){
+    if (result >= 200 && result <300){
         return "you are passed, congratualtion !!!"; } 
        //If the person cumaltive marks is less than 200 then person is not eligible for the       certificate and result, reapper in the exam.
        else if(result < 200 ){
